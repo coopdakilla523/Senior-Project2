@@ -1,0 +1,43 @@
+1.0.0.3: Added new methods:
+- ReInput.ControllerHelper.GetLastActiveController
+- Player.GetAxisTimeActive
+- Player.GetAxisTimeInactive
+- Player.GetAxisRawTimeActive
+- Player.GetAxisRawTimeInactive
+- Player.ControllerHelper.GetLastActiveController
+- Controller.GetLastTimeActive
+- Controller.GetLastTimeAnyButtonPressed
+- Controller.GetButtonLastTimePressed
+- Controller.GetButtonLastTimeUnpressed
+- ControllerWithAxes.GetLastTimeAnyAxisActive
+- ControllerWithAxes.GetAxisTimeActive
+- ControllerWithAxes.GetAxisTimeInactive
+- ControllerWithAxes.GetAxisLastTimeActive
+- ControllerWithAxes.GetAxisLastTimeInactive
+- ControllerWithAxes.GetAxisRawTimeActive
+- ControllerWithAxes.GetAxisRawTimeInactive
+- ControllerWithAxes.GetAxisRawLastTimeActive
+- ControllerWithAxes.GetAxisRawLastTimeInactive
+- Controller.Axis.lastTimeActive
+- Controller.Axis.lastTimeActiveRaw
+- Controller.Axis.lastTimeInactive
+- Controller.Axis.lastTimeInactiveRaw
+- Controller.Axis.timeActive
+- Controller.Axis.timeInactive
+- Controller.Axis.timeActiveRaw
+- Controller.Axis.timeInactiveRaw
+- Controller.Button.lastTimePressed
+- Controller.Button.lastTimeUnpressed
+
+1.0.0.2: Fixed bug with digital axis simulation calculation when Time.timeScale != 1
+
+1.0.0.1:
+- Added 8-way hat support
+- Added XML schemas for xml data output
+- Added Android support
+- Added multi-button support in hardware joystick maps
+- Added new controller definitions: CH FighterStick USB, CH Pro Pedals USB, CH Eclipse Yoke, Sony DualShock 3, Sony DualShock 4
+- Added controller definitions for all controllers on Android
+- Removed joysticks 11-20 from InputManager as Unity only supports up to 11
+
+1.0.0.0: Initial release

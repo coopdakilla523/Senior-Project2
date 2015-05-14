@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{40CB0B0E-CC78-1750-9836-1F2D679B85F4}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_1;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Editor\EditorExploderObject.cs" />
+     <Compile Include="Assets\Editor\EditorExploderUtils.cs" />
+     <Compile Include="Assets\Rewired\Internal\Scripts\Editor\CustomInspectors\CustomInspector_External.cs" />
+     <Compile Include="Assets\Rewired\Internal\Scripts\Editor\CustomInspectors\HardwareJoystickMapInspector.cs" />
+     <Compile Include="Assets\Rewired\Internal\Scripts\Editor\CustomInspectors\HardwareJoystickTemplateMapInspector.cs" />
+     <Compile Include="Assets\Rewired\Internal\Scripts\Editor\CustomInspectors\InputManagerInspector.cs" />
+     <Compile Include="Assets\Rewired\Internal\Scripts\Editor\UnityEditorBridge.cs" />
+     <None Include="Assets\Shaders\Mat_SM_OpenBarrel.shader" />
+     <None Include="Assets\Shaders\Mat_GoldBar_1.shader" />
+     <None Include="Assets\Shaders\Mat_SM_Turkey.shader" />
+     <None Include="Assets\Shaders\Mat_SM_Barrel_B.shader" />
+     <None Include="Assets\Shaders\Bookshelf_1_Mat.shader" />
+     <None Include="Assets\Shaders\IceShader.shader" />
+     <None Include="Assets\Shaders\Mat_IronMaiden.shader" />
+     <None Include="Assets\Shaders\Mat_TortureWheel_Wood.shader" />
+     <None Include="Assets\Shaders\ReaperStatue_1_Mat.shader" />
+     <None Include="Assets\Shaders\Table_1_Mat.shader" />
+     <None Include="Assets\Shaders\Mat_Torture_IronChair_Iron.shader" />
+     <None Include="Assets\Shaders\SmallContainers_1_Mat.shader" />
+     <None Include="Assets\Shaders\Mat_RailingSegment_01.shader" />
+     <None Include="Assets\Shaders\Mat_Torture_Stocks.shader" />
+     <None Include="Assets\Shaders\Steve 1.shader" />
+     <None Include="Assets\Shaders\Wall_4_1_Mat.shader" />
+     <None Include="Assets\Shaders\Mat_SM_Basin.shader" />
+     <None Include="Assets\Shaders\Floor_1_Mat.shader" />
+     <None Include="Assets\Shaders\Mat_AM_Leverbase.shader" />
+     <None Include="Assets\Shaders\Mat_SM_Pitcher.shader" />
+     <None Include="Assets\Shaders\Mat_WeaponSet_1.shader" />
+     <None Include="Assets\Shaders\Mat_SM_Padlock.shader" />
+     <None Include="Assets\Shaders\Mat_Books_01.shader" />
+     <None Include="Assets\Shaders\Mat_Fireplace.shader" />
+     <None Include="Assets\Plugins\ShaderForge\Example Assets\Shaders\LightCone.shader" />
+     <None Include="Assets\Shaders\Mat_JudasCradle1.shader" />
+     <None Include="Assets\Shaders\Mat_FireOuter.shader" />
+     <None Include="Assets\Shaders\Chain.shader" />
+     <None Include="Assets\Shaders\Mat_Tapestry_01.shader" />
+     <None Include="Assets\Plugins\ShaderForge\Readme.txt" />
+     <None Include="Assets\Shaders\Mat_SM_CopperSkillet.shader" />
+     <None Include="Assets\Shaders\Mat_SM_DutchOven.shader" />
+     <None Include="Assets\Shaders\ColumnRound_1_Mat_B.shader" />
+     <None Include="Assets\Shaders\Mat_Coins_1.shader" />
+     <None Include="Assets\Shaders\Mat_SM_Axe.shader" />
+     <None Include="Assets\Shaders\Wall_Doorway_1_Mat.shader" />
+     <None Include="Assets\Shaders\Mat_SM_Cheese.shader" />
+     <None Include="Assets\Rewired\Documentation\licences.txt" />
+     <None Include="Assets\Plugins\ShaderForge\Example Assets\Shaders\MaterialPlatform.shader" />
+     <None Include="Assets\Shaders\Mat_Firestorm.shader" />
+     <None Include="Assets\Shaders\Mat_Bench.shader" />
+     <None Include="Assets\Shaders\NewShader.shader" />
+     <None Include="Assets\Shaders\Mat_Chair.shader" />
+     <None Include="Assets\Rewired\Documentation\ReadMe.txt" />
+     <None Include="Assets\Shaders\Mat_Meathook.shader" />
+     <None Include="Assets\Shaders\Mat_Ladder.shader" />
+     <None Include="Assets\Plugins\ShaderForge\Example Assets\Shaders\Vegetation.shader" />
+     <None Include="Assets\Shaders\Scrolls_1_Mat.shader" />
+     <None Include="Assets\Plugins\ShaderForge\Example Assets\Shaders\VertexAnimation.shader" />
+     <None Include="Assets\Shaders\Mat_Torture_Wheel.shader" />
+     <None Include="Assets\Shaders\Mat_FireMount_1.shader" />
+     <None Include="Assets\Shaders\Mat_SM_WoodenChair.shader" />
+     <None Include="Assets\Shaders\Mat_Stocks_wood.shader" />
+     <None Include="Assets\Shaders\Mat_SM_FireTrap.shader" />
+     <None Include="Assets\Shaders\Mat_Chest.shader" />
+     <None Include="Assets\Shaders\ColumnsRuined_1_Mat.shader" />
+     <None Include="Assets\Shaders\Bread.shader" />
+     <None Include="Assets\Plugins\ShaderForge\Example Assets\Shaders\Cubemaps.shader" />
+     <None Include="Assets\Plugins\ShaderForge\Example Assets\Shaders\Refraction.shader" />
+     <None Include="Assets\Shaders\Mat_Chandelier_1.shader" />
+     <None Include="Assets\Shaders\StoneSingles_1_Mat.shader" />
+     <None Include="Assets\Shaders\Mat_Crate_a.shader" />
+     <None Include="Assets\Shaders\Mat_JudasCradle3.shader" />
+     <None Include="Assets\Shaders\TombTop_1_Mat.shader" />
+     <None Include="Assets\Plugins\ShaderForge\Example Assets\Shaders\Parallax.shader" />
+     <None Include="Assets\Shaders\Steve.shader" />
+     <None Include="Assets\Shaders\Mat_AM_Arrow.shader" />
+     <None Include="Assets\Shaders\Mat_NightStand.shader" />
+     <None Include="Assets\Shaders\Mat_SM_MoldyBread.shader" />
+     <None Include="Assets\Shaders\Mat_JudasCradle2.shader" />
+     <None Include="Assets\Plugins\ShaderForge\Example Assets\Shaders\LightWrapping.shader" />
+     <None Include="Assets\Shaders\Mat_Candle_1.shader" />
+     <None Include="Assets\Shaders\Mat_WeaponRack.shader" />
+     <None Include="Assets\Shaders\Wall_4_Cutout_1_Mat.shader" />
+     <None Include="Assets\Shaders\Mat_SM_CopperPot.shader" />
+     <None Include="Assets\Shaders\Bones_1_Mat.shader" />
+     <None Include="Assets\Shaders\SpikeTrap_1_Mat.shader" />
+     <None Include="Assets\Shaders\Mat_SM_Barrel.shader" />
+     <None Include="Assets\Shaders\Floor.shader" />
+     <None Include="Assets\Shaders\Mat_Torture_IronChair_Wood.shader" />
+     <None Include="Assets\Plugins\ShaderForge\Example Assets\Shaders\VertexColorRounding.shader" />
+     <None Include="Assets\Shaders\Mat_AM_ArcherBow.shader" />
+     <None Include="Assets\Shaders\mat_candle.shader" />
+     <None Include="Assets\Plugins\ShaderForge\Example Assets\Shaders\TessellationDisplacement.shader" />
+     <None Include="Assets\Shaders\Mat_AM_Staff.shader" />
+     <None Include="Assets\Shaders\Mat_Carpet.shader" />
+     <None Include="Assets\Shaders\Switch_1_Mat.shader" />
+     <None Include="Assets\Shaders\Mat_SM_Cot.shader" />
+     <None Include="Assets\Plugins\ShaderForge\Example Assets\Shaders\Tiles.shader" />
+     <None Include="Assets\Shaders\ColumnSquare_1_Mat.shader" />
+     <None Include="Assets\Rewired\Documentation\ReleaseNotes.txt" />
+     <None Include="Assets\Shaders\Mat_Potion_01.shader" />
+     <None Include="Assets\Shaders\TombFancy_1_Mat.shader" />
+     <None Include="Assets\Shaders\Mat_WallPlaster_1.shader" />
+     <None Include="Assets\Shaders\Zombie_Mat.shader" />
+     <None Include="Assets\Shaders\Mat_Barrel_1.shader" />
+     <None Include="Assets\Shaders\Wall_8_1_Mat.shader" />
+     <None Include="Assets\Shaders\Mat_CoatOfArms.shader" />
+     <None Include="Assets\Shaders\MultiTexture.shader" />
+     <None Include="Assets\Shaders\Mat_LionMount.shader" />
+     <None Include="Assets\Shaders\Mat_SM_Table.shader" />
+     <None Include="Assets\Exploder\3rd\P2T.txt" />
+     <None Include="Assets\Shaders\Mat_BossDoor_A.shader" />
+     <None Include="Assets\Shaders\TombBottom_1_Mat.shader" />
+     <None Include="Assets\Plugins\ShaderForge\Example Assets\Shaders\PixelRotator.shader" />
+     <None Include="Assets\Plugins\ShaderForge\Example Assets\Shaders\CustomLighting.shader" />
+     <None Include="Assets\Shaders\Mat_SM_Cutlery.shader" />
+     <None Include="Assets\Shaders\Mat_Wind.shader" />
+     <None Include="Assets\Shaders\Mat_Baskets.shader" />
+     <None Include="Assets\Shaders\Mat_Log.shader" />
+     <None Include="Assets\Shaders\Mat_Padlock.shader" />
+     <None Include="Assets\Shaders\Mat_WineRack.shader" />
+     <None Include="Assets\Shaders\Mat_Dust.shader" />
+     <None Include="Assets\Shaders\Mat_Stocks_Iron.shader" />
+     <None Include="Assets\Shaders\Mat_AM_Key_A.shader" />
+     <None Include="Assets\Shaders\Mat_Fire.shader" />
+     <None Include="Assets\Shaders\Mat_Rubble_01.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="P2T">
+ <HintPath>C:/Users/SeniorProj/Desktop/senior project/trunk/Assets/Exploder/3rd/P2T.dll</HintPath>
+ </Reference>
+ <Reference Include="ShaderForge">
+ <HintPath>C:/Users/SeniorProj/Desktop/senior project/trunk/Assets/Plugins/ShaderForge/Editor/Code/ShaderForge.dll</HintPath>
+ </Reference>
+ <Reference Include="Rewired_Editor">
+ <HintPath>C:/Users/SeniorProj/Desktop/senior project/trunk/Assets/Rewired/Internal/Libraries/Editor/Rewired_Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Rewired_Core">
+ <HintPath>C:/Users/SeniorProj/Desktop/senior project/trunk/Assets/Rewired/Internal/Libraries/Runtime/Rewired_Core.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{1ECCC056-403F-DE82-16EC-800D8F942A9F}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{C9C5ACED-AF37-B251-9AC8-2374AADD4A08}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
